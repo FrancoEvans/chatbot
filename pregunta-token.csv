@@ -1,0 +1,53 @@
+Unnamed: 0,pregunta,tokens
+0,Qué son las emociones?,['emocion']
+1,Como surgen las emociones?,"['surg', 'emocion']"
+2,Por qué sentimos miedo o felicidad?,"['sent', 'mied', 'felic']"
+Por qué sentimos miedo?,Sentimos miedo cuando percibimos una amenaza y nuestro cuerpo se prepara para defenderse.,"['sent', 'mied', 'percib', 'amenaz', 'cuerp', 'prep', 'defend']"
+Por qué sentimos felicidad?,Sentimos felicidad cuando experimentamos algo placentero o satisfactorio.,"['sent', 'felic', 'experiment', 'placenter', 'satisfactori']"
+3,Qué pasa en nuestro cuerpo cuando estamos enojados?,"['pas', 'cuerp', 'enoj']"
+4,Por qué a veces no podemos controlar nuestras emociones?,"['vec', 'pod', 'control', 'emocion']"
+5,Qué son los estímulos?,['estimul']
+6,Como afectan los estímulos a nuestra conducta?,"['afect', 'estimul', 'conduct']"
+7,Por qué a veces sobrepensamos las cosas?,"['vec', 'sobrepens', 'cos']"
+8,Qué es el sobrepensamiento y cómo nos afecta?,"['sobrepens', 'com', 'afect']"
+9,Qué es la subjetividad?,['subjet']
+10,Por qué dos personas pueden ver la misma situación de forma diferente?,"['dos', 'person', 'pued', 'ver', 'mism', 'situacion', 'form', 'diferent']"
+11,Qué son las perspectivas y cómo influyen en nuestras decisiones?,"['perspect', 'com', 'influ', 'decision']"
+12,Por qué algunas personas actúan de manera impulsiva?,"['person', 'actu', 'maner', 'impuls']"
+13,Qué factores influyen en la impulsividad?,"['factor', 'influ', 'impuls']"
+14,Como el entorno afecta nuestra forma de actuar?,"['entorn', 'afect', 'form', 'actu']"
+15,Qué son los hábitos?,['habit']
+16,Como podemos cambiar un hábito?,"['pod', 'cambi', 'habit']"
+17,Qué papel juega la motivación en el cambio de hábitos?,"['papel', 'jueg', 'motiv', 'cambi', 'habit']"
+18,Como afecta la adicción a nuestra vida diaria?,"['afect', 'adiccion', 'vid', 'diari']"
+19,Por qué las personas caen en hábitos destructivos?,"['person', 'caen', 'habit', 'destruct']"
+20,Qué es la procrastinación y cómo nos afecta?,"['procrastin', 'com', 'afect']"
+21,Por qué las emociones pueden ser tan difíciles de expresar?,"['emocion', 'pued', 'ser', 'tan', 'dificil', 'expres']"
+22,Qué es la ansiedad?,['ansied']
+23,Cómo se relacionan las emociones y los pensamientos?,"['com', 'relacion', 'emocion', 'pensamient']"
+24,Qué es la empatía?,['empat']
+25,Por qué es importante la autocompasión?,"['import', 'autocompasion']"
+26,Cómo afectan los traumas pasados a nuestra percepción actual?,"['com', 'afect', 'traum', 'pas', 'percepcion', 'actual']"
+27,Qué es el estrés?,['estres']
+28,Por qué las personas tienen diferentes umbrales de tolerancia al estrés?,"['person', 'diferent', 'umbral', 'toler', 'estres']"
+29,Qué es la resiliencia?,['resilient']
+30,Cómo afectan las redes sociales a nuestras emociones?,"['com', 'afect', 'red', 'social', 'emocion']"
+31,Por qué es importante tener una red de apoyo emocional?,"['import', 'ten', 'red', 'apoy', 'emocional']"
+32,Qué es la frustración?,['frustracion']
+33,Cómo podemos manejar la frustración de manera saludable?,"['com', 'pod', 'manej', 'frustracion', 'maner', 'salud']"
+34,Por qué algunas personas tienen más facilidad para controlar sus emociones?,"['person', 'facil', 'control', 'emocion']"
+35,Qué es la inteligencia emocional?,"['inteligent', 'emocional']"
+36,Cómo se puede mejorar la inteligencia emocional?,"['com', 'pued', 'mejor', 'inteligent', 'emocional']"
+37,Qué son los pensamientos automáticos?,"['pensamient', 'automat']"
+38,Por qué los pensamientos negativos afectan nuestra salud mental?,"['pensamient', 'negat', 'afect', 'salud', 'mental']"
+39,Cómo el pensamiento positivo impacta en nuestra vida diaria?,"['com', 'pensamient', 'posit', 'impact', 'vid', 'diari']"
+40,Por qué a veces no vemos las cosas desde una perspectiva objetiva?,"['vec', 'vem', 'cos', 'perspect', 'objet']"
+41,Qué son las creencias limitantes?,"['creenci', 'limit']"
+42,Por qué a veces la mente nos juega trucos y distorsiona la realidad?,"['vec', 'ment', 'jueg', 'truc', 'distorsion', 'realid']"
+43,Cómo podemos superar los pensamientos limitantes?,"['com', 'pod', 'super', 'pensamient', 'limit']"
+44,Qué es la autoaceptación?,['autoacept']
+45,Por qué es difícil cambiar de hábitos?,"['dificil', 'cambi', 'habit']"
+46,Cómo afectan las adicciones a nuestra salud mental?,"['com', 'afect', 'adiccion', 'salud', 'mental']"
+47,Qué es el autocuidado y por qué es importante?,"['autocuid', 'import']"
+48,Por qué algunas personas tienen más dificultades para adaptarse a los cambios?,"['person', 'dificultad', 'adapt', 'cambi']"
+49,Qué es la autorregulación emocional?,"['autorregul', 'emocional']"

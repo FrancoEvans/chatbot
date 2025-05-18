@@ -1,19 +1,21 @@
 import pandas as pd
-import nltk
-import re
+from utils import buscarCantidad, buscarPorcentaje
 
-def transformar_texto(txt):
-    tildes = str.maketrans('áéíóú', 'aeiou')
-    txt = txt.translate(tildes).replace('?', '').replace('.', '')
-    return txt.strip().lower()
+def elegirRespuesta(df, userInput):
+    valores = []
+    porcentajes = buscarPorcentaje(df, userInput)
+    cantidades = buscarCantidad(df, userInput)
 
+    for index in range(len(df)):
+        valor = porcentajes[index] * cantidades[index]
+        valores.append(valor)
 
-def buscar_respuesta(df, raw_input):
-    input_ = transformar_texto(raw_input)
-    for index, pregunta in enumerate(df['pregunta']):
-        if input_ == transformar_texto(pregunta):
-            return df.loc[index, 'respuesta']
-    return "no se esa respuesta :("
+    if max(valores) < 0.1:
+        return "perdon, no se esa respuesta :("
+    else:
+        preguntaElegida = valores.index(max(valores))
+        return df.iloc[preguntaElegida, 2]
+
 
 def agregar_pregunta(pregunta, respuesta):
     df = pd.read_csv('preguntas.csv', encoding='utf-8')
@@ -27,12 +29,12 @@ def chatbot():
     df = pd.read_csv('preguntas.csv', encoding='utf-8')
 
     while True:
-        input_ = input("User: ")
-        if input_.lower() == 'salir':
+        userInput = input("User: ")
+        if userInput.lower() == 'salir':
             print("fin")
             break
 
-        respuesta = buscar_respuesta(df, input_)
+        respuesta = elegirRespuesta(df, userInput)
         print(f"Chat: {respuesta}\n")
 
 chatbot()

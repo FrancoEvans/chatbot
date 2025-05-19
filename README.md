@@ -39,3 +39,4 @@ Aunque no "entiende" como una persona, el bot:
 - **Compara** con lo que ya conoce usando una fórmula matemática (similitud de Jaccard).
 - Si encuentra algo muy parecido, responde.
 - Si no, te pregunta si querés enseñarle.
+

@@ -15,7 +15,7 @@ def elegirRespuesta(df, userInput):
     else:
         preguntaElegida = valores.index(max(valores))
         return df.iloc[preguntaElegida, 2]
-
+# asigna un valor segun la cantidad de coincidencias entre los tokens de la pregunta y del input del usuario. en base a ese valor elige la respuesta mas adecuada
 
 def agregar_pregunta(pregunta, respuesta):
     df = pd.read_csv('preguntas.csv', encoding='utf-8')

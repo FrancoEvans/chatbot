@@ -22,7 +22,6 @@ def tokenizar(texto):
 
 
 
-
 textos = ['como controlar las emociones??', 'que es la emocion', 'donde esta el miedo', 'como tienen dos personas diferentes perspectivas?']
 
 df.drop("respuesta", axis=1, inplace=True)
